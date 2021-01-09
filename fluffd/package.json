@@ -5,10 +5,14 @@
 	"main": "fluffd.js",
 	"dependencies": {
 		"noble": "1.9.1",
-		"winston": "3.1.0"
+		"winston": "3.1.0",
+		"xpc-connection": "github:sandeepmistry/node-xpc-connection#pull/26/head"
 	},
 	"devDependencies": {
 		"eslint": "5.9.0"
+	},
+	"resolutions": {
+		"xpc-connection": "sandeepmistry/node-xpc-connection#pull/26/head"
 	},
 	"author": "Jeija",
 	"license": "MIT"
